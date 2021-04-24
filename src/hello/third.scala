@@ -108,11 +108,11 @@ object third {
       val pageUser3 = Exercise.Controller.userLastMeetup(3)
       println(pageUser3) //???
 
-//      println("\n\n ----------ADDITIONAL----------------")
-//      import EffectsLibrary._
-//      val maybeDivide:Int=>Int=>Maybe[Int] = a=>b=> if(b==0) Empty else Just(a/b)
-//      println(flatMap(Just(2))(maybeDivide(10))==Just(5))
-//      println(flatMap(Empty)(maybeDivide(10))==Empty)
+      println("\n\n ----------ADDITIONAL----------------")
+      import EffectsLibrary._
+      val maybeDivide:Int=>Int=>Maybe[Int] = a=>b=> if(b==0) Empty else Just(a/b)
+      println(flatMap(Just(2))(maybeDivide(10))==Just(5))
+      println(flatMap(Empty)(maybeDivide(10))==Empty)
   //
   //
   //    val divide:(Int,Int)=>Int = (a,b)=>a/b
