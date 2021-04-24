@@ -8,8 +8,7 @@ object Task2 {
         go(n+1, lst ::: List(n.toChar))
       }
     }
-    val lst = List()
-    return go(start, lst)
+    return go(start, List())
   }
 
   def main(args:Array[String]): Unit = {
