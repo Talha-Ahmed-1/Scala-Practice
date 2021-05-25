@@ -1,0 +1,2 @@
+# Scala-Practice
+## Scala Assignments
