@@ -28,9 +28,6 @@ object Excercise4 {
     println(ulist_Extended_flatmap)
     println(uList_Selective)
     println(uList_Selective_Flatmap)
-    println(uMap_Map)
-    println(uMap_Flatmap)
-
 
   }
 }
